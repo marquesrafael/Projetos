@@ -1,0 +1,47 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --branco: #FFF;
+    --cinza: #AAA;
+    --pretotrans: rgba(0, 0, 0, .50);
+    --musgo: #688a08;
+    --azul: #58F4F4;
+}
+
+body {
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: var(--musgo);
+}
+
+.logo-antes {
+    color: var(--preto);
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.logo-meio {
+    color: var(--vermelho);
+}
+
+
+.quem-somos {
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.parceiros {
+    background-color: var(--azul);
+}
+
+.bg-footer {
+    background-color: var(--preto);
+    color: var(--branco);
+}
